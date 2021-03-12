@@ -1731,6 +1731,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = net.phere.GitX;
 				PRODUCT_NAME = GitX;
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1752,6 +1753,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.phere.GitX;
 				PRODUCT_NAME = GitX;
 				STRIP_INSTALLED_PRODUCT = YES;
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1908,6 +1910,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.phere.gitx-cli";
 				PRODUCT_NAME = gitx;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -1923,6 +1926,7 @@
 				PRODUCT_NAME = gitx;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
